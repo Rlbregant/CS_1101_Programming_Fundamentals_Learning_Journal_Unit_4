@@ -56,10 +56,10 @@ def calculate_success_probability(num_crew_members, crew_skills):
 # we can test it by calling the function with different arguments:
 def main():
     print("Success Probability: {:.2f}%".format(calculate_success_probability(1, [10])))  # Success Probability: 100.00%
-    print(
-        "Success Probability: {:.2f}%".format(calculate_success_probability(2, [5, 8])))  # Success Probability: 63.20%
-    print("Success Probability: {:.2f}%".format(
-        calculate_success_probability(3, [1, 2, 3])))  # Success Probability: 18.10%
+    print("Success Probability: {:.2f}%".format(calculate_success_probability(2, [5, 8])))  # Success Probability:
+    # 63.20%
+    print("Success Probability: {:.2f}%".format(calculate_success_probability(3, [1, 2, 3])))  # Success Probability:
+    # 18.10%
 
 
 if __name__ == "__main__":
